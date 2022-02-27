@@ -1,0 +1,208 @@
+
+        /* <!-- -----------------font link--------------------- --> */
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gideon+Roman&family=Irish+Grover&family=Permanent+Marker&family=Poppins:ital,wght@0,100;1,400&family=Roboto+Serif:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gideon+Roman&family=Irish+Grover&family=Permanent+Marker&family=Poppins:ital,wght@0,100;1,400&family=Roboto+Serif:wght@100&family=Shippori+Antique+B1&display=swap');
+
+        body {
+            background-color: white;
+            font-family: 'poppins', sans-serif;
+            font-weight: 1000;
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+
+        /* -------------------------------header---------------------------------- */
+
+        header .row {
+            background-image: linear-gradient(62deg, #48c 0%, #129 100%);
+            padding-top: 2rem;
+        }
+
+        .logo {
+            width: 5rem;
+            height: 5rem;
+            margin-left: 1.5rem;
+        }
+
+        #headerlogotitle {
+            color: white;
+            font-size: 25px;
+
+        }
+
+        .commonnavs {
+            color: white;
+            margin-top: 1.5rem;
+            font-size: 12px;
+            /* background-color: black; */
+        }
+        #notificationlogo{
+            color: white;
+            border: 1px solid white;
+            border-radius: 5px;
+            padding: 2px;
+            margin-top: 1rem;
+        }
+        .userlogininfo{
+            width: 3rem;
+            height: 3rem;
+            background-color: white;
+            border-radius: 50%;
+            margin-top: -3rem;
+            margin-left: 5rem;
+        }
+
+
+
+
+
+        /* ------------------------  -row1- -------------------------------------------------- */
+
+        .col-1 {
+            width: 5.9rem;
+            /* border: 2px solid black; */
+        }
+
+        .col-md-5 {
+            font-size: xx-large;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            /* padding-top: 1.5rem; */
+
+        }
+
+        .form-control {
+            border: 2px solid #ddd;
+            width: 15rem;
+            height: 3rem;
+            text-align: center;
+            border-radius: 8px;
+            font-size: 9.5px;
+
+
+        }
+
+        .material-icons.md-25 {
+            font-size: 25px;
+        }
+
+        .expandicon {
+            position: absolute;
+            margin-left: 12rem;
+            margin-top: 5px;
+
+        }
+
+
+
+
+        /* ------------------------  -row2- -------------------------------------------------- */
+        .planbox {
+            text-align: center;
+            background-color: rgb(241, 249, 255);
+            padding: 1.95rem;
+            width: 20.10rem;
+            margin: 17px;
+            border: 2px solid #dff;
+        }
+
+        h3 {
+            font-weight: bolder;
+            font-size: 25px;
+            margin-bottom: 19px;
+        }
+
+        .priceingreen {
+            color: #4db;
+            font-size: 22px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        button {
+            background-color: rgb(8, 29, 138);
+            color: white;
+            width: 6.5rem;
+            height: 2.5rem;
+            margin-top: 15px;
+            font-size: large;
+            font-family: Arial;
+        }
+
+        .textvalidays {
+            font-size: 400;
+            font-family: "Shippori Antique B1";
+            font-weight: 200;
+        }
+
+        .featurestext {
+            font-size: 11.3px;
+        }
+
+        img {
+            width: 20px;
+            height: 30px;
+        }
+
+        .planbox:hover {
+            /* background-color: pink; */
+            transform: translate(0, -30px);
+            box-shadow: 0px 8px 5px #eee;
+            background-image: url("https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-light-gray-round-png-image_2381992.jpg");
+            background-size: 10px, 10px;
+            background-repeat: no-repeat;
+            background-position: bottom;
+
+        }
+
+
+
+        /* ------------------------  -footer- -------------------------------------------------- */
+        footer .row {
+            background-color: #129;
+            margin-top: 4.5rem;
+            color: white;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        .foooterlogo {
+            width: 3.5rem;
+            height: 3.5rem;
+            margin-left: 1.5rem;
+
+        }
+
+        footer input {
+            background-color: #129;
+            padding: 3.5px;
+            color: white;
+            font-weight: bold;
+            border: 1px solid white;
+        }
+
+        #emailbutton {
+            background-color: #129;
+            width: 4rem;
+            padding: 3.5px;
+            color: white;
+            text-align: center;
+            border: 1px solid white;
+        }
+
+
+
+        /* ------------------------  -media query- -------------------------------------------------- */
+        @media screen and (max-width:500px) {
+            .planbox {
+                border-bottom-color: rgb(14, 15, 15);
+            }
+
+        }
+    
